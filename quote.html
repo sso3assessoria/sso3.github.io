@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> ... </head>
+<body>
+  <header> ... </header>
+  <main>
+    <h1>Peça seu Orçamento</h1>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label>Nome<input type="text" name="name" required></label>
+      <label>E-mail<input type="email" name="email" required></label>
+      <label>Telefone<input type="tel" name="phone"></label>
+      <label>Empresa<input type="text" name="company"></label>
+      <label>Mensagem<textarea name="message" required></textarea></label>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="confirmation" class="hidden">Obrigado! Recebemos sua mensagem.</p>
+  </main>
+  <footer> ... </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
